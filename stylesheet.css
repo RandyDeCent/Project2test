@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(116, 116, 116);
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  background-color: rgb(159, 159, 159);
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+.navbar ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+}
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.navbar ul li a:hover {
+  color: aquamarine;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+section h1 {
+  font-size: 4rem;
+}
+section p {
+  font-size: 1.5rem;
+  align-items: center;
+}
+.Streetwear {
+  background-image: url("../Explorepage/img/Streetwear.jpg");
+  background-repeat: no-repeat;
+  background-size: 1900px 1250px;
+  background-position: center;
+}
+
+.Steampunk {
+  background: url("../Explorepage/img/Steampunk2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fill;
+}
+
+.Classic {
+  background: url("../Explorepage/img/Classic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Vintage {
+  background: url("../Explorepage/img/Vintage.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.like__btn {
+  padding: 10px 15px;
+  background: #a3a3a3;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  color: #e8efff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginbox {
+  width: 350px;
+  height: 450px;
+  background: #000;
+  color: #e8efff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px, 30px;
+}
+.icon{
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ position: absolute;
+ top: -50%;
+ left: calc(50% - 50px);
+
+
+}
+h1{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 22px;
+
+
+}
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+
+}
+.loginbox input{
+width: 100%;
+margin-bottom: 20px;
+
+
+}
+.loginbox input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+
+}
+.loginbox input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: grey;
+  color: #000;
+  font-size: 18px;
+  border-radius: 20px;
+}
+  .loginbox input[ type="submit"]:hover{
+     cursor: pointer; 
+     background: #ffc107;
+     color: #000;
+
+
+
+
+  }
+  .loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+
+  }
+  .loginbox a:hover{
+    color: #ffc107;
+    
+
+  }
