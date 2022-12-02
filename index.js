@@ -1,13 +1,51 @@
+const likeBtn = document.querySelector(".like_btn");
+let likeIcon = document.querySelector("#icon"),
+  count = document.querySelector("#count");
+
+let clicked = false;
 
 
-window.addEventListener(load , () =>{ 
-    const form = document.queryCommandValue("#new-task-form");
-    const input = document.querySelector("#new-task-input");
-    const list_el = document.querySelector("#Tasks");
 
-    form.addEventListener('submit', (e) => {
-        e.prevenntdefualt (); 
-        console.log ("submit form");
-        
-    })
-})
+
+likeBtn2.addEventListener("click", () => {  if (!clicked) {
+    clicked = true;
+    likeIcon.innerHTML = `<i class="fas fa-thumbs-up"></i>`;
+    count.textContent++;
+  } else {
+    clicked = false;
+    likeIcon.innerHTML = `<i class="far fa-thumbs-up"></i>`;
+    count.textContent--;
+  }
+});const likeBtn = document.querySelector(".like_btn");
+let likeIcon = document.querySelector("#icon"),
+  count = document.querySelector("#count");
+
+let clicked = false;
+
+
+likeBtn3.addEventListener("click", () => {  if (!clicked) {
+    clicked = true;
+    likeIcon.innerHTML = `<i class="fas fa-thumbs-up"></i>`;
+    count.textContent++;
+  } else {
+    clicked = false;
+    likeIcon.innerHTML = `<i class="far fa-thumbs-up"></i>`;
+    count.textContent--;
+  }
+});const likeBtn = document.querySelector(".like_btn");
+let likeIcon = document.querySelector("#icon"),
+  count = document.querySelector("#count");
+
+let clicked = false;
+
+
+likeBtn4.addEventListener("click", () => {  if (!clicked) {
+    clicked = true;
+    likeIcon.innerHTML = `<i class="fas fa-thumbs-up"></i>`;
+    count.textContent++;
+  } else {
+    clicked = false;
+    likeIcon.innerHTML = `<i class="far fa-thumbs-up"></i>`;
+    count.textContent--;
+  }
+});
