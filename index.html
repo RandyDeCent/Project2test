@@ -3,36 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TODO list
-    </title>
-    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
   </head>
 
   <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li><a href="Streetwear">Streetwear</a></li>
+          <li><a href="Steampunk">Steampunk</a></li>
+          <li><a href="Classic">Classic</a></li>
+          <li><a href="Vintage">Vintage</a></li>
+        </ul>
+      </nav>
+      <div class="loginbox">
+        <img src="img/icon.jpg" class="icon" />
+        <h1>Login Here</h1>
+        <form>
+          <p>Username</p>
+          <input type="text" name="" placeholder="Enter Username"/>
+          <p>Password</p>
+          <input type="text"name=""placeholder="Enter Password"
+          />
+        </form>
+        <input type="submit" name="" value="Login" />
 
-    <header>
-        <h1>My task list</h1>
-        <form id="new-task-form">
-          <input type="text" id="new-task-input " placeholder="Whats next?" />
-          <input type="submit"  id="new-task-submit" value="addtask" />  
-        
-     </form>  
-            <section class="task-list">
-        <h2>tasks</h2>
-        <div id="tasks">
-          <div class="task">
-            <div class="content">
-              <input type="text" class="text" value="new task to do " readonly />
-              <div class="actions">
-                <button class="delete">delete</button>
-                <button class="edit">edit</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <a href="#" >Forgot Password</a> <br>
+      
+        <a href="#" >Sign up</a>
+      </div>
+      
+    </div>
+    <button class="like_btn">
+      <span id="icon"><i class="far fa-thumbs-up"></i></span>
+      <span id="count">0</span> Like
+    </button>
+    <section class="Streetwear">
+      <h1>Streetwear</h1>
+      <p>
+        Casual clothing of a style worn especially by members of various urban
+        youth subcultures.
+      </p>
+    </section>
+    <button class="like_btn">
+      <span id="icon"><i class="far fa-thumbs-up"></i></span>
+      <span id="count">0</span> Like
+    </button>
 
-        <script src="index.js"> </script>
+    <section class="Steampunk">
+      <h1>Steampunk</h1>
+      <p>
+        Science fiction that has a historical setting and typically features
+        steam-powered machinery rather than advanced technology
+      </p>
+    </section><button class="like_btn">
+      <span id="icon"><i class="far fa-thumbs-up"></i></span>
+      <span id="count">0</span> Like
+    </button>
+    <section class="Classic">
+      <h1>Classic</h1>
+      <p>
+        Classics are those styles that you don't even have to think about. You
+        just know they will be acceptable from one year to the next.
+      </p>
+    </section><button class="like_btn">
+      <span id="icon"><i class="far fa-thumbs-up"></i></span>
+      <span id="count">0</span> Like
+    </button>
+    <section class="Vintage">
+      <h1>Vintage</h1>
+      <p>Styles and trends of the era they represent.</p>
+      <script src="Likebutton.js"></script>
+    </section>
+  </body>
+</html>
+
       </section>
     </header>
   </body>
